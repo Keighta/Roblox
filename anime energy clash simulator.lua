@@ -1,5 +1,5 @@
 --https://www.roblox.com/games/13370783664
---loadstring(game:HttpGet("https://pastebin.com/raw/8aqpmaAr"))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/Keighta/Roblox/main/anime%20energy%20clash%20simulator.lua"))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Anime Energy Clash Simulator", IntroEnabled = false})
 game:GetService("Players").LocalPlayer.Idled:Connect(function()
