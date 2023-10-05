@@ -23,9 +23,9 @@ Tab:AddToggle({
 	Name = "Auto Collect Cash While x3 Boost Active",
 	Default = false,
 	Callback = function(Value)
-		_G.autoCollectCash = Value
+		getgenv().autoCollectCash = Value
         local ugcleaks = game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.LeftSide.CashBoost.Timer
-		while _G.autoCollectCash do
+		while autoCollectCash do
             if ugcleaks.Text == "X3 CASH BOOST In Progress!" then
                 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("emptyCollector"):InvokeServer()
                 wait(.1)
