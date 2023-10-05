@@ -49,7 +49,7 @@ Tab:AddButton({
     end
 })
 Tab:AddButton({
-    Name = "Auto Build TBD", --tried to make auto build with button priorities but i gave up (after 5 minutes trying)
+    Name = "Auto Build TBD",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0BankTycoon"))()
     end
